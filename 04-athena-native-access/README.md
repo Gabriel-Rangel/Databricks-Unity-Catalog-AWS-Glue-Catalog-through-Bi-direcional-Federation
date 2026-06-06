@@ -150,3 +150,11 @@ registra as 3 tabelas como Delta (apontando para o `compatibility.location` em
 - **Service credential ≠ storage credential:** não reutilize a role `gabrielrangel-externallocation`
   (storage credential, trust e finalidade diferentes). Esta role é dedicada a chamadas de
   serviço (Athena/Glue).
+
+---
+
+## Referências (documentação oficial)
+- Amazon Athena — *Query Delta Lake tables* — https://docs.aws.amazon.com/athena/latest/ug/delta-lake-tables.html
+- Compatibility Mode — https://docs.databricks.com/aws/en/external-access/compatibility-mode
+- Criar service credentials — https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-services/service-credentials
+- Usar service credentials (boto3) — https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-services/use-service-credentials

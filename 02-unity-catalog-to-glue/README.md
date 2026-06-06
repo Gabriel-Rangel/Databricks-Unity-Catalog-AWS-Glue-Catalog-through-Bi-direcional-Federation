@@ -230,3 +230,15 @@ aws lakeformation grant-permissions --region us-east-2 --profile databricks-sand
 - **Test connection** não funciona quando a conexão é via Amazon VPC (limitação documentada).
 - **Revogação:** ao dropar tabela no Databricks, o LF **não** revoga permissões automaticamente.
 - **Propagação:** se a validação/consulta falhar logo após criar, aguarde ~1 min (propagação IAM) e repita.
+
+---
+
+## Referências (documentação oficial)
+- Lake Formation — *Federate to Databricks Unity Catalog* — https://docs.aws.amazon.com/lake-formation/latest/dg/catalog-federation-databricks.html
+- Lake Formation — *Creating a federated catalog using an AWS Glue connection* — https://docs.aws.amazon.com/lake-formation/latest/dg/create-fed-catalog-data-source.html
+- Lake Formation — *Catalog federation to remote Iceberg catalogs* — https://docs.aws.amazon.com/lake-formation/latest/dg/catalog-federation.html
+- UC Iceberg REST Catalog (acesso externo) — https://docs.databricks.com/aws/en/external-access/iceberg
+- Habilitar external data access — https://docs.databricks.com/aws/en/external-access/admin
+- UniForm / External Iceberg Reads — https://docs.databricks.com/aws/en/delta/uniform
+- Compatibility Mode — https://docs.databricks.com/aws/en/external-access/compatibility-mode
+- AWS Big Data Blog — *Access Databricks Unity Catalog data using catalog federation in the AWS Glue Data Catalog* — https://aws.amazon.com/blogs/big-data/access-databricks-unity-catalog-data-using-catalog-federation-in-the-aws-glue-data-catalog/

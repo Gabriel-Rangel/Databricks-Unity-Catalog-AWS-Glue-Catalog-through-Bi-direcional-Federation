@@ -170,3 +170,11 @@ ORDER BY fob_brl DESC LIMIT 6;
   e o role da federação (Passo B5.1: `DESCRIBE` em `default`/`glue_native_db` + `SELECT` nas tabelas).
 - **Mesmo `external_id`** vale para service + storage credential do mesmo role → um trust só.
 - **Iceberg-on-Glue federation** é Public Preview; aqui a tabela é Parquet via HMS federation (GA).
+
+---
+
+## Referências (documentação oficial)
+- Lakehouse/HMS federation para AWS Glue — https://docs.databricks.com/aws/en/query-federation/hms-federation-glue
+- Criar service credentials — https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-services/service-credentials
+- Usar service credentials (boto3) — https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-services/use-service-credentials
+- Storage credential + external location (S3) — https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-storage/s3/s3-external-location-manual
