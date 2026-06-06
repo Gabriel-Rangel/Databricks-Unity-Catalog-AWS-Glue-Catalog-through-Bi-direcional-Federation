@@ -91,6 +91,3 @@ The guides use example/placeholder values — substitute your own:
 ## Author
 
 **Gabriel Rangel** — Solutions Engineer, Databricks.
-
-> This repository was genericized from a real proof‑of‑concept; customer references were removed and
-> deployment‑specific identifiers replaced with placeholders. Use it as a template.
