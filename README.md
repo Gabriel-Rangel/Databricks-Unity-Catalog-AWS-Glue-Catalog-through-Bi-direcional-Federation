@@ -88,6 +88,31 @@ Os guias usam valores de exemplo/placeholder — troque pelos seus:
 
 ---
 
+## Referências (documentação oficial)
+
+**Databricks**
+- Unity Catalog Iceberg REST Catalog (acesso externo) — https://docs.databricks.com/aws/en/external-access/iceberg
+- Habilitar *external data access* no metastore — https://docs.databricks.com/aws/en/external-access/admin
+- Integrações de acesso externo (clientes/engines) — https://docs.databricks.com/aws/en/external-access/integrations
+- Credential vending — https://docs.databricks.com/aws/en/external-access/credential-vending
+- UniForm / External Iceberg Reads — https://docs.databricks.com/aws/en/delta/uniform
+- Compatibility Mode — https://docs.databricks.com/aws/en/external-access/compatibility-mode
+- Lakeflow Spark Declarative Pipelines — https://docs.databricks.com/aws/en/ldp/
+- Lakehouse/HMS federation para AWS Glue — https://docs.databricks.com/aws/en/query-federation/hms-federation-glue
+- Catalog federation (visão geral) — https://docs.databricks.com/aws/en/query-federation/catalog-federation
+- Criar service credentials — https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-services/service-credentials
+- Usar service credentials (boto3) — https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-services/use-service-credentials
+- Storage credential + external location (S3) — https://docs.databricks.com/aws/en/connect/unity-catalog/cloud-storage/s3/s3-external-location-manual
+
+**AWS**
+- Lake Formation — *Federate to Databricks Unity Catalog* — https://docs.aws.amazon.com/lake-formation/latest/dg/catalog-federation-databricks.html
+- Lake Formation — *Creating a federated catalog using an AWS Glue connection* — https://docs.aws.amazon.com/lake-formation/latest/dg/create-fed-catalog-data-source.html
+- Lake Formation — *Catalog federation to remote Iceberg catalogs* — https://docs.aws.amazon.com/lake-formation/latest/dg/catalog-federation.html
+- Amazon Athena — *Query Delta Lake tables* — https://docs.aws.amazon.com/athena/latest/ug/delta-lake-tables.html
+- AWS Big Data Blog — *Access Databricks Unity Catalog data using catalog federation in the AWS Glue Data Catalog* — https://aws.amazon.com/blogs/big-data/access-databricks-unity-catalog-data-using-catalog-federation-in-the-aws-glue-data-catalog/
+
+---
+
 ## Autor
 
 **Gabriel Rangel** — Solutions Engineer, Databricks.
