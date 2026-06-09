@@ -6,7 +6,7 @@ Formation** — fazendo as tabelas fluírem **nos dois sentidos**, sem copiar da
 
 Construído e validado num ambiente real de Databricks-on-AWS e depois genericizado neste template.
 
-![Arquitetura](diagrams/architecture.png)
+![Arquitetura](diagrams/UC_GLUE_BIFEDERATION.png)
 
 ---
 
