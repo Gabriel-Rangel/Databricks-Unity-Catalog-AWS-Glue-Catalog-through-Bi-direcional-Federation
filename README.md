@@ -116,7 +116,3 @@ Os guias usam valores de exemplo/placeholder — troque pelos seus:
 ## Autor
 
 **Gabriel Rangel** — Solutions Engineer, Databricks.
-
-> Este repositório foi genericizado a partir de uma prova de conceito real; referências ao cliente
-> foram removidas e identificadores específicos do ambiente substituídos por placeholders. Use como
-> template.
